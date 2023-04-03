@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>card</title>
+    <link rel="stylesheet" href="style-card.css" />
+  </head>
+  <body>
+    <div id="app">
+      <section>
+        <div class="container">
+          <img class="cartao" id="cartao-front" src="./assets/card.svg" />
+          <img class="cartao" src="./assets/card-back.svg" id="cartao-back" />
+        </div>
+        <form action="">
+          <div class="form-control">
+            <label for="card-number">Número do cartão</label>
+            <input type="text" id="card-number" placeholder="4716 8039 02" />
+          </div>
+          <div class="form-control">
+            <label for="card-owner">Nome do titular</label>
+            <input
+              type="text"
+              id="card-owner"
+              placeholder="Nome como está no cartão"
+            />
+          </div>
+          <div class="div-wrapper">
+            <div class="form-control">
+              <label for="card-valid">Validade</label>
+              <input type="text" id="card-valid" placeholder="mm/aa" />
+            </div>
+            <div class="form-control">
+              <label id="cvv-center" for="card-cvv"
+                >CVV <img src="./assets/question.svg"
+              /></label>
+              <input type="text" id="card-cvv" required placeholder="***" />
+            </div>
+          </div>
+        </form>
+        <p><img src="./assets/safe.svg" /> Seus dados estão seguros</p>
+      </section>
+      <div class="button">
+        <button type="submit">Adicionar cartão</button>
+      </div>
+    </div>
+    <script src="https://unpkg.com/imask"></script>
+    <script src="./index.js"></script>
+  </body>
+</html>
