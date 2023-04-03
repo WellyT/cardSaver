@@ -33,6 +33,13 @@ O projeto _Form cartão de crédito_ foi realizado como parte do #13 desafio #BO
 
 O desafio foi a criação do layout de uma página para salvar informações do cartão de crédito.
 
+<p align="center" id="-layout-figma">
+  <img alt="login figma" src="./assets/desktop.png" width="70%">
+</p>
+<p align="center" id="-layout-figma">
+  <img alt="login figma" src="./assets/mobile.png" width="30%">
+</p>
+
 ## 🔖 Layout
 
 O layout proposto pela RocketSeat através da imagem abaixo</a>. Disponibilizado pelo [Figma](https://figma.com) durante o período do desafio.
