@@ -35,10 +35,10 @@ O desafio foi a criação do layout de uma página para salvar informações do 
 
 <p align="center" id="-layout-figma">
   <img alt="login figma" src="./assets/desktop.png" width="70%">
-</p>
-<p align="center" id="-layout-figma">
   <img alt="login figma" src="./assets/mobile.png" width="30%">
 </p>
+<!-- <p align="center" id="-layout-figma">
+</p> -->
 
 ## 🔖 Layout
 
